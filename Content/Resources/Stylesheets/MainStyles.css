@@ -444,3 +444,17 @@ div.ContentRow > div:nth-child(2)
 	}
 }
 
+p.red
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+@media print
+{
+	p.red
+	{
+		color: red;
+	}
+}
+
